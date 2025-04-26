@@ -1410,6 +1410,7 @@ class RT470XPlusRadio(RT470XRadio):
 
     # BT version
     _fingerprint_bt = [b"\x01\x36\x01\x80\x04\x00\x05\x20"  # fw v0.15
+                       b"\x01\x30\x01\x80\x04\x00\x05\x20",  # there is such a print
                        ]
     _fingerprint = _fingerprint_bt
 
